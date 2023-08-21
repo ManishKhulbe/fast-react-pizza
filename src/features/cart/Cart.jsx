@@ -43,7 +43,7 @@ if(!cart.length) return <EmptyCart/>
 
       {
         cart.map((item) => 
-          <CartItem item={item} key={item.key} />
+          <CartItem item={item} key={item.pizzaId} />
         )
     }
       </ul>
